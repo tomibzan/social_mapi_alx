@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "social_media_api.settings.prod")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "social_mapi_alx.settings.prod")
 
 application = get_wsgi_application()
